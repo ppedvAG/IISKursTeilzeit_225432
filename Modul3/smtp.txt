@@ -1,0 +1,12 @@
+nxlookup -type=mx ppedv.de
+
+telnet server 25
+HELO ppedv.de
+MAIL FROM:test@ppedv.de
+RCPT TO:hannesp@ppedv.de
+DATA
+text
+text
+.
+[RETURN]
+[RETURN]
