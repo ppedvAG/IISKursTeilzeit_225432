@@ -1,0 +1,2 @@
+dotnet --list-runtimes
+dotnet --list-sdks

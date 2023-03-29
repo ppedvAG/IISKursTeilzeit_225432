@@ -23,3 +23,32 @@ https://learn.microsoft.com/en-us/aspnet/core/host-and-deploy/iis/advanced?view=
 
 
 
+.....\Properties\PublishProfiles pubxml
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <WebPublishMethod>MSDeploy</WebPublishMethod>
+    <LaunchSiteAfterPublish>true</LaunchSiteAfterPublish>
+    <LastUsedBuildConfiguration>Release</LastUsedBuildConfiguration>
+    <LastUsedPlatform>Any CPU</LastUsedPlatform>
+    <SiteUrlToLaunchAfterPublish />
+    <ExcludeApp_Data>false</ExcludeApp_Data>
+    <ProjectGuid>a3dac89e-60e9-457a-9f04-9ebc43e20fcb</ProjectGuid>
+    <SelfContained>false</SelfContained>
+    <MSDeployServiceURL>server.de</MSDeployServiceURL>
+    <DeployIisAppPath>server.de/ppcompany</DeployIisAppPath>
+    <RemoteSitePhysicalPath />
+    <SkipExtraFilesOnServer>true</SkipExtraFilesOnServer>
+    <MSDeployPublishMethod>WMSVC</MSDeployPublishMethod>
+    <EnableMSDeployBackup>true</EnableMSDeployBackup>
+    <EnableMsDeployAppOffline>true</EnableMsDeployAppOffline>
+    <UserName>administrator</UserName>
+    <_SavePWD>true</_SavePWD>
+    <_TargetId>IISWebDeploy</_TargetId>
+    <TargetFramework>net6.0</TargetFramework>
+	  <ExcludeFilesFromDeployment>web.config</ExcludeFilesFromDeployment>
+  </PropertyGroup>
+</Project>
